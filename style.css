@@ -3,12 +3,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Recursive", sans-serif;
     background-color: #FFFBEB;
 }
 
 /* Navigation */
-
 nav {
     border-bottom: 2px solid rgb(0, 0, 0);
     display: flex;
@@ -65,6 +64,7 @@ nav ul li a {
 }
 
 .aside > ul > li{
+    font-family: "Recursive", sans-serif;
     list-style: none;
     margin: 5px;
     font-size: large;
@@ -83,10 +83,57 @@ nav ul li a {
     margin: 3rem 3rem
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+  }
+  .card > h4 {
+      margin-top: 30px;
+    color: #4071ad;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-weight: 300;
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .card {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  
+  .card > h2 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+  }
+    
+  .card > p { 
+      display: flex;
+    text-align: justify;
+}
+
+  .author > h4 {
+    color: rgb(0, 0, 0);
+  }
+  
+  .card .time {
+    color: rgb(83, 78, 78);
+  }
+  
+  .card img {
+      border-radius: 4rem;
+      margin-top: 50px;
+    height: 110px;
+    width: 80px;
+  }
+  
 
 /* footer */
 
 .footer {
+    margin-top: ;
     grid-area: footer;
     border-top: 2px solid rgb(0, 0, 0);
     height: 10vh;
@@ -97,13 +144,19 @@ nav ul li a {
     padding: 1em;
 }
 
+.footer > h3 {
+    margin-top: 30px;
+}
+
 .footer > ul {
     padding-inline-start: 0;
     list-style: none;
+    color: black;
     display: flex;
 }
 
 .footer > ul > li {
     margin: 1em;
+    color: black;
     font-size: larger;
 }
