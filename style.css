@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -26,11 +28,17 @@ nav ul {
 nav ul li {
  list-style: none;
  display: flex;
- font-size: 1rem;
+ font-family: "Recursive", sans-serif;
+ font-size: 1.1rem;
  padding: 1.2rem 0.5rem;
  margin: 1rem;
  cursor: pointer;
  padding-right: 30px;
+}
+
+nav ul li a {
+    font-family: "Recursive", sans-serif;
+    text-decoration: none;
 }
 
 /* aside */
@@ -63,4 +71,39 @@ nav ul li {
     cursor: pointer;
     padding-left: 30px;
     padding-top: 5px;
+}
+
+/* main-section */
+
+.main-section {
+    display: flex;
+}
+
+.main-section > img {
+    margin: 3rem 3rem
+}
+
+
+/* footer */
+
+.footer {
+    grid-area: footer;
+    border-top: 2px solid rgb(0, 0, 0);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.footer > ul {
+    padding-inline-start: 0;
+    list-style: none;
+    display: flex;
+}
+
+.footer > ul > li {
+    margin: 1em;
+    font-size: larger;
 }
