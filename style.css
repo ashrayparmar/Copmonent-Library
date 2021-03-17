@@ -128,7 +128,20 @@
 /* Content */
 
 .content .title-2 {
-    margin-top: 13px;
+    margin: 1rem 0;
+}
+
+
+/* /* Avtar */
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.avatar > img {
+ padding: 1rem;
 }
 
 /* Responsive */
