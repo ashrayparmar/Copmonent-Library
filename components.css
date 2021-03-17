@@ -1,0 +1,25 @@
+/* Avtar */
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.avtar-sm {
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}
+
+.avtar-lg {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+}
+
+.avtar-icon {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;   
+}
