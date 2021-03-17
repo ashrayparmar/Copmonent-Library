@@ -16,7 +16,7 @@
 
 .nav > img {
     padding: 1rem;
-    padding-left: 100px;
+    padding-left: 105px;
 }
 
 .nav ul {
@@ -90,7 +90,6 @@
 .footer {
     grid-area: footer;
     border-top: 1px solid rgb(0, 0, 0);
-    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,6 +123,12 @@
     display: flex;
     justify-content: space-around;
     padding: 2em;
+}
+
+/* Content */
+
+.content .title-2 {
+    margin-top: 13px;
 }
 
 /* Responsive */
