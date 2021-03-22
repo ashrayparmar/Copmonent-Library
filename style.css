@@ -1,202 +1,212 @@
 @import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Recursive", sans-serif;
-    background-color: #FFFBEB;    
+  margin: 0;
+  padding: 0;
+  font-family: "Recursive", sans-serif;
+  background-color: #fffbeb;
 }
 
 .nav {
-    grid-area: nav;
-    border-bottom: 2px solid black;
-    display: flex;
-    justify-content: space-between;   
+  grid-area: nav;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav > img {
-    padding: 1rem;
-    padding-left: 105px;
+  padding: 1rem;
+  padding-left: 105px;
 }
 
 .nav ul {
-    list-style: none;
-    display: flex;
-    margin-top: 13px;
+  list-style: none;
+  display: flex;
+  margin-top: 13px;
 }
 
 .nav ul li {
- list-style: none;
- display: flex;
- font-family: "Recursive", sans-serif;
- font-size: 1.1rem;
- padding: 1.2rem 0.5rem;
- margin: 1rem;
- cursor: pointer;
- padding-right: 30px;
+  list-style: none;
+  display: flex;
+  font-family: "Recursive", sans-serif;
+  font-size: 1.1rem;
+  padding: 1.2rem 0.5rem;
+  margin: 1rem;
+  cursor: pointer;
+  padding-right: 30px;
 }
 
 .nav ul li a {
-    font-family: "Recursive", sans-serif;
-    text-decoration: none;
+  font-family: "Recursive", sans-serif;
+  text-decoration: none;
 }
 
-.aside-container{
-    grid-area: aside-container;
-    justify-content: center;
-    padding-left: 30px;
-    border-right: 2px solid black;
+.aside-container {
+  grid-area: aside-container;
+  justify-content: center;
+  padding-left: 30px;
+  border-right: 2px solid black;
 }
 
 .aside {
-    grid-area: aside;
-    height: 60vh;
-    padding: 1rem 1rem;
-    position: fixed;
-    top: 16vh;
+  grid-area: aside;
+  height: 60vh;
+  padding: 1rem 1rem;
+  position: fixed;
+  top: 16vh;
 }
 
 .aside > ul {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.aside > ul > li{
-    font-family: "Recursive", sans-serif;
-    list-style: none;
-    margin: 5px;
-    font-size: large;
-    cursor: pointer;
-    padding-left: 30px;
-    padding-top: 5px;
+.aside > ul > li {
+  font-family: "Recursive", sans-serif;
+  list-style: none;
+  margin: 5px;
+  font-size: large;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-top: 5px;
 }
 
 .aside > ul > li > a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 .content {
-    grid-area: content;
-    padding: 2em;
+  grid-area: content;
+  padding: 2em;
 }
 
 .content > h1 {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .footer {
-    grid-area: footer;
-    border-top: 2px solid rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1em;
+  grid-area: footer;
+  border-top: 2px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
 }
 
 .footer > ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .footer > ul > li {
-    margin: 1em;
-    font-size: small;
+  margin: 1em;
+  font-size: small;
 }
 
 .container {
-    display: grid;
-    grid-template-areas: 
-    'nav nav nav nav nav nav'
-    'aside-container content content content content content'
-    'aside-container content content content content content'
-    'footer footer footer footer footer footer'
-    ;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-areas:
+    "nav nav nav nav nav nav"
+    "aside-container content content content content content"
+    "aside-container content content content content content"
+    "footer footer footer footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-
-.card-container{
-    display: flex;
-    justify-content: space-around;
-    padding: 2em;
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
 }
 
 /* Content */
 
 .content .title-2 {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
+.info {
+  padding: 1rem 0;
+}
+
+.import-link {
+  margin-top: 20px;
+  border: 2px solid #e5e7eb;
+  padding: 1rem 1rem;
+  background-color: #e5e7eb;
+  color: black;
+}
+.import-link > pre {
+  background-color: #e5e7eb;
+}
 
 /* /* Avtar */
 
 .avatar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .avatar > img {
- padding: 1rem;
+  padding: 1rem;
 }
 
 /* Responsive */
 
 @media screen and (max-width: 768px) {
-    .nav {
-        grid-area: nav;
-        border-bottom: 1px solid rgb(0, 0, 0);
-        height: 10vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-    }
-
-    .nav > ul > li {
-        margin:  0.2rem;
-    }
-
-    .nav > ul {
-        margin: 0rem;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .aside {
-        display: none;
-        grid-area: aside-hide;
-        height: 60vh;
-        padding: 1em;
-        position: static;
-    }
-
-    .aside-container{
-        grid-area: aside-container-hide;
-        display: none;
-        justify-content: center;
-    }
-
-    .content {
-        width: 90vw;
-        grid-area: content;
-        border-left: 1px solid rgb(0, 0, 0);
-        padding: 2em;
-    }
-
-    .container {
-        width: 100vw;
-        display: grid;
-        grid-template-areas: 
-        'nav'
-        'content'
-        'content'
-        'footer'
-        ;
-        grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr;
-    }
+  .nav {
+    grid-area: nav;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
+
+  .nav > ul > li {
+    margin: 0.2rem;
+  }
+
+  .nav > ul {
+    margin: 0rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .aside {
+    display: none;
+    grid-area: aside-hide;
+    height: 60vh;
+    padding: 1em;
+    position: static;
+  }
+
+  .aside-container {
+    grid-area: aside-container-hide;
+    display: none;
+    justify-content: center;
+  }
+
+  .content {
+    width: 90vw;
+    grid-area: content;
+    border-left: 1px solid rgb(0, 0, 0);
+    padding: 2em;
+  }
+
+  .container {
+    width: 100vw;
+    display: grid;
+    grid-template-areas:
+      "nav"
+      "content"
+      "content"
+      "footer";
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
