@@ -168,7 +168,6 @@
   height: 40px;
   background-color: #60a5fa;
   margin: 0.3rem;
-
   border-radius: 0.5rem;
 }
 .yellow {
@@ -177,7 +176,6 @@
   height: 40px;
   background-color: #fbbf24;
   margin: 0.3rem;
-
   border-radius: 0.5rem;
 }
 
@@ -185,6 +183,28 @@
   display: flex;
   padding: 1rem 0;
   flex-wrap: wrap;
+}
+
+.font {
+  border: 2px solid #e5e7eb;
+  background-color: #e5e7eb;
+  padding: 1rem;
+}
+.font > div {
+  background-color: #e5e7eb;
+}
+.font > h3 {
+  background-color: #e5e7eb;
+}
+.font > h3 > a {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #e5e7eb;
+}
+
+.font-color > h4 {
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
 }
 /* /* Avtar */
 
