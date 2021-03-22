@@ -1,3 +1,5 @@
+/* Avatar */
+
 .avtar-icon {
   height: 120px;
   width: 120px;
@@ -20,4 +22,62 @@
   height: 80px;
   width: 80px;
   border-radius: 100%;
+}
+
+/* Alert */
+
+.success {
+  border: 2px solid #047857;
+  background-color: #a7f3d0;
+  padding: 1rem 1rem;
+  color: black;
+  border-radius: 0.7rem;
+}
+
+.success > span {
+  background-color: #a7f3d0;
+  color: #047857;
+  font-weight: bold;
+}
+
+.failed {
+  border: 2px solid #b91c1c;
+  background-color: #fca5a5;
+  padding: 1rem 1rem;
+  color: black;
+  border-radius: 0.7rem;
+}
+
+.failed > span {
+  background-color: #fca5a5;
+  color: #b91c1c;
+  font-weight: bold;
+}
+
+.warning {
+  border: 2px solid #d97706;
+  background-color: #fcd34d;
+  padding: 1rem 1rem;
+  color: black;
+  border-radius: 0.7rem;
+}
+
+.warning > span {
+  background-color: #fcd34d;
+  color: #d97706;
+  font-weight: bold;
+}
+
+.information {
+  border: 2px solid #1d4ed8;
+  background-color: #93c5fd;
+  padding: 1rem 1rem;
+  color: black;
+  border-radius: 0.7rem;
+}
+
+.information > span {
+  background-color: #93c5fd;
+  color: #1d4ed8;
+  font-weight: bold;
 }
