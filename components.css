@@ -24,6 +24,12 @@
   border-radius: 100%;
 }
 
+.avtar-xs {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+
 /* Alert */
 
 .success {
@@ -80,4 +86,12 @@
   background-color: #93c5fd;
   color: #1d4ed8;
   font-weight: bold;
+}
+
+/* Badge */
+
+.image-badge {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
 }

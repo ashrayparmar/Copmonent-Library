@@ -212,6 +212,16 @@
 
 /* Badge */
 
+.primary-badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.primary-badge > div {
+  padding: 1rem;
+}
+
 /* footer */
 
 .footer {
