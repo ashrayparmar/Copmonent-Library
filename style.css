@@ -45,12 +45,13 @@
   grid-area: aside-container;
   justify-content: center;
   padding-left: 30px;
+  height: 100vh;
   border-right: 2px solid black;
 }
 
 .aside {
   grid-area: aside;
-  height: 80vh;
+  height: 100vh;
   padding: 1rem 1rem;
   position: fixed;
   top: 16vh;
