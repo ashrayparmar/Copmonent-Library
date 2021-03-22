@@ -1,17 +1,23 @@
-.avtar-sm {
-    height: 90px;
-    width: 90px;
-    border-radius: 100%;
+.avtar-icon {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
 }
 
 .avtar-lg {
-    height: 120px;
-    width: 120px;
-    border-radius: 100%;
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
 }
 
-.avtar-icon {
-    height: 120px;
-    width: 120px;
-    border-radius: 100%;   
+.avtar-md {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.avtar-sm {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
 }
