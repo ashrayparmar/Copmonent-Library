@@ -222,6 +222,12 @@
   padding: 1rem;
 }
 
+.notification-badge {
+  display: flex;
+  font-size: 3.5rem;
+  margin: 0.4rem 0;
+}
+
 /* footer */
 
 .footer {

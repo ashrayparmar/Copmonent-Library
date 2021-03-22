@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="components.css">
-    <script src="https://use.fontawesome.com/f3bf4fe506.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <title>Cherry Css</title>
 </head>
 <body>
@@ -51,32 +51,47 @@
             <h3>Badges can be used as part of links or buttons to provide a counter.</h3>
             <hr/>
 
-            <h4>Primary Badge</h4>
+            <h4 style="padding: 1rem 1rem;">Primary Badge with Avatar</h4>
             <div class="primary-badge">
-                <div>
+                <div class="badge">
                     <img src="./img/ashray.jpg" class="avtar-lg">
-                    <span class="status offline"></span>
+                    <div class="status offline"></div>
                 </div>
-                <div>
+                <div class="badge">
                     <img src="./img/ashray.jpg"  class="avtar-md">
-                    <span class="status away"></span>
+                    <div class="status online"></div>
                 </div>
-                <div>
+                <div class="badge">
                     <img src="./img/ashray.jpg"  class="avtar-sm">
-                </div>
-                <div>
-                    <img src="./img/ashray.jpg"  class="avtar-xs">
-                    <span class="status online"></span>
+                    <div class="status away"></div>
                 </div>
             </div>
 
+            <h4 style="padding: 1rem 1rem;">Primary Badge with Icons</h4>
+
             <div class="notification-badge">
-                <div></div>
+                <div class="badge">
+                    <ion-icon style="margin-right: 60px;" name="cart"></ion-icon>
+                    <span class="icon">5</span>
+                </div>
+                <div class="badge">
+                    <ion-icon style="margin-right: 60px;" name="mail"></ion-icon>
+                    <span class="icon">8</span>
+                </div>
+                <div class="badge">
+                    <ion-icon name="notifications"></ion-icon>
+                    <span class="icon">2</span>
+                </div>
             </div>
             
             <h4 style="color: gray; padding: 1rem 1rem; font-weight: 300;">To use Badge component copy the below HTML link</h4> 
-            
-            </div>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimg%252Fashray.jpg%2522%2520class%253D%2522avtar-lg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522status%2520offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cimg%2520src%253D%2522.%252Fimg%252Fashray.jpg%2522%2520%2520class%253D%2522avtar-md%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522status%2520online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cimg%2520src%253D%2522.%252Fimg%252Fashray.jpg%2522%2520%2520class%253D%2522avtar-sm%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522status%2520away%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+            style="width: 572px; height: 426px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+        </div>
         </div>
     </div>
 </body>

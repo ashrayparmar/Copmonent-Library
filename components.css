@@ -95,3 +95,58 @@
   height: 100px;
   border-radius: 100%;
 }
+
+.badge {
+  position: relative;
+}
+
+.status {
+  height: 15px;
+  width: 15px;
+  border-radius: 2rem;
+}
+
+.offline {
+  border: 2px solid #b91c1c;
+  background-color: #b91c1c;
+  position: absolute;
+  right: 1.6em;
+  bottom: 1.4em;
+}
+
+.online {
+  border: 2px solid #047857;
+  background-color: #047857;
+  position: absolute;
+  right: 1.6em;
+  bottom: 1.2em;
+}
+
+.away {
+  border: 2px solid #f59e0b;
+  background-color: #f59e0b;
+  position: absolute;
+  right: 1.2em;
+  bottom: 1.4em;
+  height: 12px;
+  width: 12px;
+}
+
+.badge {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  border: 1px solid #3b82f6;
+  background-color: #3b82f6;
+  border-radius: 1rem;
+  top: 0rem;
+  text-align: center;
+  padding: 0.1em;
+  left: 2.4em;
+  width: 17px;
+  height: 17px;
+  font-size: 0.9rem;
+  color: white;
+}
