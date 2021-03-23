@@ -244,6 +244,13 @@ body {
   align-items: center;
 }
 
+/* Image */
+
+.bg-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* footer */
 
 .footer {
