@@ -286,6 +286,32 @@
   flex-wrap: wrap;
 }
 
+.vertical-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vertical-cards .card {
+  display: flex;
+}
+
+.card .vertical-card-description h3 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.vertical-cards .card > img {
+  width: 360px;
+  height: 280px;
+}
+
+.card p {
+  padding: 1rem;
+  justify-content: center;
+  text-align: justify;
+  margin-top: 20px;
+}
+
 .horizontal-cards .card > img {
   width: 280px;
   height: 350px;
@@ -322,4 +348,39 @@
   margin-bottom: 0.5rem;
   font-size: 0.8rem;
   padding: 0.3rem 0.3rem;
+}
+
+.overlay-card > img {
+  height: 300px;
+  width: 400px;
+}
+
+.overlay-card {
+  width: 20rem;
+  position: relative;
+  transition: all 200ms ease-in-out;
+}
+
+.txt-overlay {
+  position: absolute;
+  bottom: 40px;
+  color: #fff;
+  padding: 1rem 1rem 0 1rem;
+  opacity: 0;
+  z-index: 1;
+}
+
+.overlay-card:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.overlay-card:hover .overlay-img {
+  filter: brightness(60%);
+}
+
+.overlay-card:hover .txt-overlay,
+.overlay-card:hover .btn-icon {
+  opacity: 1;
+  filter: brightness(100%);
 }
