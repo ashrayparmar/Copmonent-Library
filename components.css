@@ -278,3 +278,48 @@
 .btn-social:hover {
   opacity: 0.9;
 }
+
+/* Cards */
+
+.horizontal-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.horizontal-cards .card > img {
+  width: 280px;
+  height: 350px;
+}
+
+.card {
+  margin: 1rem;
+  background-color: #e5e7eb;
+  border-radius: 10px;
+}
+
+.light {
+  font-weight: 300;
+  padding: 0 0.5rem;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.price {
+  display: flex;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.title {
+  padding: 0.5rem 0.5rem;
+}
+
+.btn-primary {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.3rem;
+}
