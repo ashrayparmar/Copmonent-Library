@@ -532,5 +532,20 @@ select {
 /* Modal */
 
 .modal {
-  border: 1px solid black;
+  width: 40%;
+  border: 2px solid black;
+  padding: 1rem 1rem;
+}
+
+.modal-btn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+/* rating */
+
+.rating {
+  margin-left: 20px;
+  padding: 1rem 1rem;
 }
