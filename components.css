@@ -390,3 +390,17 @@
   height: 350px;
   width: 550px;
 }
+
+/* input */
+
+.inputs {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+input {
+  width: 25%;
+  padding: 1rem 1rem;
+}
