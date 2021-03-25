@@ -588,3 +588,62 @@ select {
 .grid-content-50 {
   text-align: center;
 }
+
+/* Text */
+
+.text-component {
+  padding: 1rem 1rem;
+}
+
+.text-component-style small {
+  padding: 1rem 1rem;
+  border: 1px solid black;
+}
+
+.text-component-style h4 {
+  border: 1px solid black;
+  padding: 1rem 1rem;
+}
+
+.gray-text {
+  color: gray;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* Toast */
+
+.toast {
+  margin: 1rem;
+}
+
+.success-toast {
+  padding: 0.6rem 0.6rem;
+  border: 1px solid black;
+  background-color: #a7f3d0;
+  border-radius: 0.5em;
+  margin: 1rem;
+}
+
+.saved-toast {
+  padding: 0.6rem 0.6rem;
+  border: 1px solid black;
+  background-color: #fde68a;
+  border-radius: 0.5em;
+  margin: 1rem;
+}
+
+.add-toast {
+  padding: 0.6rem 0.6rem;
+  border: 1px solid black;
+  background-color: #bfdbfe;
+  border-radius: 0.5em;
+  margin: 1rem;
+}
+
+.toast-icon {
+  cursor: pointer;
+  font-size: 1rem;
+}
