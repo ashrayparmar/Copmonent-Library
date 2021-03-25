@@ -10,6 +10,10 @@ body {
   background-color: #f3f4f6;
 }
 
+.landing-page {
+  background-color: #f3f4f6;
+}
+
 .nav {
   grid-area: nav;
   border-bottom: 1px solid black;
