@@ -168,6 +168,12 @@
   color: white;
 }
 
+.btn-primary-1 {
+  border: 2px solid #3b82f6;
+  background-color: #3b82f6;
+  color: white;
+}
+
 .btn-primary:hover {
   opacity: 0.9;
   color: white;

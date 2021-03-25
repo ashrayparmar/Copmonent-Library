@@ -119,10 +119,15 @@ body {
   padding-top: 5px;
 }
 
-.aside > ul > li > a {
+.aside .link {
   color: #3b82f6;
-
   text-decoration: none;
+}
+
+.aside .link-active {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .content {
