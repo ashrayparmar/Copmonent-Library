@@ -30,6 +30,12 @@ body {
   margin-top: 30px;
 }
 
+.landing-page button a {
+  color: white;
+  font-family: "Recursive", sans-serif;
+  text-decoration: none;
+}
+
 .landing-page a {
   color: black;
   font-family: "Recursive", sans-serif;
