@@ -7,13 +7,14 @@
 }
 
 body {
-  background-color: #fffbeb;
+  background-color: #f3f4f6;
 }
 
 .nav {
   grid-area: nav;
   border-bottom: 2px solid black;
   display: flex;
+  background-color: #dbeafe;
   justify-content: space-between;
 }
 
@@ -40,6 +41,8 @@ body {
 }
 
 .nav ul li a {
+  color: #3b82f6;
+
   font-family: "Recursive", sans-serif;
   text-decoration: none;
 }
@@ -78,6 +81,7 @@ body {
 }
 
 .aside > ul > li > a {
+  color: #3b82f6;
   text-decoration: none;
 }
 
