@@ -567,3 +567,24 @@ select {
 .slider-with-icon .volume-icon {
   margin-right: 10px;
 }
+
+/* Grid */
+
+.grid-50 {
+  padding: 1rem 1rem;
+  border: 1px solid gray;
+}
+
+.grid-image-50 > img {
+  height: 300px;
+  width: 450px;
+}
+
+.grid-50 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid-content-50 {
+  text-align: center;
+}

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,33 +49,87 @@
         <div class="content">
                         
             <div class="avatar-component">
-            <h2>Slider</h2>
-            <h3>Sliders are used to decide range for something like sound in videos, price in shopping sites, etc.</h3>
+            <h2>Responsive grids</h2>
+            <h3>Use grid when you want sections in view. Check below some examples of side by side cards.
+
+            </h3>
             <hr/>
 
-            <h4 style="padding: 1rem 1rem;">Slider with style's</h4>
-
-            <div class="slider">
-                <div class="slider-style">
-                </ion-icon><input type="range" name="range" id="range" min="0" max="150" value="15">
+            <h4 style="padding: 1rem 1rem;">Grid with 50-50 layout</h4>
+            
+            <div class="grid-50">
+                <div class="grid-image-50">
+                    <img class="responsive" src="https://banbanjara.com/frontend/uploads/product/1568026803814-ParaglidinginManaliBanBanjara.jpg?dim=784x422&type=resize">
+                </div>
+                <div class="grid-content-50">
+                    <h3 style="padding: 1rem 1rem;">Manali 4D/3N</h3>
+                    <h4>Starting at 6999/-</h4>
+                    <button style="margin-top: 30px;" class="btn btn-secondary">Buy</button>
                 </div>
             </div>
-
-            <h4 style="padding: 1rem 1rem;">Slider with icon</h4>
-
-            <div class="slider">
-                <div class="slider-with-icon">
-                    <ion-icon class="volume-icon" name="volume-high-outline"></ion-icon><input type="range" name="range" id="range" min="0" max="150" value="15">     
-                </div>
-            </div>           
 
             <h4 style="color: gray; padding: 1rem 1rem; font-weight: 300;">To use List component copy the below HTML link</h4> 
             
             <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-style%2522%253E%250A%2509%253C%252Fion-icon%253E%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522range%2522%2520id%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522150%2522%2520value%253D%252215%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2509%253Cdiv%2520class%253D%2522slider-with-icon%2522%253E%250A%2520%2520%2520%2520%253Cion-icon%2520class%253D%2522volume-icon%2522%2520name%253D%2522volume-high-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522range%2522%2520id%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522150%2522%2520value%253D%252215%2522%253E%2520%2520%2520%2520%2520%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%2520"
-            style="width: 892px; height: 370px; border:0; transform: scale(1); overflow:hidden;"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-50%2522%253E%250A%2509%253Cdiv%2520class%253D%2522grid-image-50%2522%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520class%253D%2522responsive%2522%2520src%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2509%253Cdiv%2520class%253D%2522grid-content-50%2522%253E%250A%2520%2520%2520%2520%2509%253Ch3%253EManali%25204D%252F3N%253C%252Fh3%253E%250A%2520%2520%2520%2520%2509%253Ch4%253EStarting%2520at%25206999%252F-%253C%252Fh4%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 606px; height: 370px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
             </iframe>
+
+            <h4 style="padding: 1rem 1rem;">Grid for product listing layout</h4>
+
+            <div class="horizontal-cards">
+
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/85/30/b7/8530b7f65f32ba06bdf1e0af6048709e.jpg" height="300px">
+                        <div class="card-description">
+                            <div class="primary">
+                            <h3 class="title">Levi's</h3>
+                            <h4 class="light">Printed T-shirt</h4>
+                            <div class="price">
+                                <h5 class ="rm"><strong>Rs. 700 </strong></h5>
+                                <h5 class="rm light strikethrough">Rs.1400 </span>
+                                <h5 class="rm discount">(50% OFF)</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary">Shop Now</button>
+                        <button class="btn btn-primary">Move to Wishlist</button>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img" src="https://rukminim1.flixcart.com/image/332/398/k4zx9jk0/shirt/r/a/y/4xl-fo-shrt-pekok-5th-anfold-original-imafkzvqg4qptzg4.jpeg?q=50" alt="">
+                    <div class="bgde-lg pink"></div>
+                    <div class="card-info">
+                        <h3 class="title">Formal Shirt</h3>
+                        <h4 class="light">Men Regular Fit Shirt</h4>
+                        <div class="price">
+                            <h5><strong>Rs. 2400 </strong></h5>
+                            <h5 class="light strikethrough">Rs. 4800 </span>
+                            <h5 class="discount">(50% OFF)</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Add to Cart</button>
+                    <button class="btn btn-primary">Move to Wishlist</button>
+                </div>                
+                
+                <div class="card">
+                    <img class="card-img" src="https://i.pinimg.com/originals/e9/ee/fa/e9eefaef9f1a3db564ac727f0e4d22ec.jpg" alt="">
+                    <div class="card-info">
+                        <h3 class="title">Calvin Klein</h3>
+                        <h4 class="light">Men Gray Denim Jacket</h4>
+                        <div class="price">
+                            <h5><strong>Rs. 2400 </strong></h5>
+                            <h5 class="light strikethrough">Rs. 4800 </span>
+                            <h5 class="discount">(50% OFF)</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Add to Cart</button>
+                    <button class="btn btn-primary">Move to Wishlist</button>
+                </div>
+
+            </div>
 
         </div>
     </div>
