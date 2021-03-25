@@ -549,3 +549,21 @@ select {
   margin-left: 20px;
   padding: 1rem 1rem;
 }
+
+/* Slider */
+
+.slider {
+  margin: 1rem;
+}
+
+.slider-with-icon {
+  display: flex;
+}
+
+.volume-icon {
+  font-size: x-large;
+}
+
+.slider-with-icon .volume-icon {
+  margin-right: 10px;
+}
