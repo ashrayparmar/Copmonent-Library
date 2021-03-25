@@ -12,6 +12,36 @@ body {
 
 .landing-page {
   background-color: #f3f4f6;
+  text-align: center;
+  height: 200px;
+  width: 400px;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+.landing-page h3 {
+  margin-top: 30px;
+}
+
+.landing-page button {
+  margin-top: 30px;
+}
+
+.landing-page a {
+  color: black;
+  font-family: "Recursive", sans-serif;
+  text-decoration: none;
+}
+
+.landing-page > button a:hover {
+  color: white;
+}
+
+.copyright {
+  margin-top: 30px;
 }
 
 .nav {
@@ -45,23 +75,28 @@ body {
 }
 
 .nav ul li a {
-  color: #3b82f6;
-
+  color: black;
   font-family: "Recursive", sans-serif;
   text-decoration: none;
+}
+
+.nav ul li a i {
+  font-size: x-large;
+  color: black;
+}
+
+.nav ul li a i:hover {
+  opacity: 0.6;
 }
 
 .aside-container {
   grid-area: aside-container;
   justify-content: center;
   padding-left: 30px;
-  height: 200vh;
-  border-right: 2px solid black;
 }
 
 .aside {
   grid-area: aside;
-  height: 200vh;
   padding: 1rem 1rem;
   position: fixed;
   top: 16vh;
@@ -86,12 +121,14 @@ body {
 
 .aside > ul > li > a {
   color: #3b82f6;
+
   text-decoration: none;
 }
 
 .content {
   grid-area: content;
   padding: 2em;
+  border-left: 2px solid gray;
 }
 
 .content > h1 {

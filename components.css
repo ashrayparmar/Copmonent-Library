@@ -491,11 +491,14 @@ select {
   padding-bottom: 1rem;
 }
 
+/* navigation */
+
 .navigation {
   grid-area: nav;
   border: 1px solid black;
   border-radius: 10px;
   display: flex;
+
   justify-content: space-between;
 }
 
@@ -517,14 +520,13 @@ select {
   font-size: 1.1rem;
   padding: 1.2rem 0.5rem;
   margin: 1rem;
-  color: #1d4ed8;
-
+  color: black;
   cursor: pointer;
   padding-right: 30px;
 }
 
 .navigation ul li a {
-  color: #1d4ed8;
+  color: black;
   font-family: "Recursive", sans-serif;
   text-decoration: none;
 }
